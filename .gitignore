@@ -1,0 +1,43 @@
+# Virtual environment
+venv/
+myenv/
+
+# Python bytecode
+*.pyc
+__pycache__/
+
+# Django migrations
+**/migrations/*.py
+**/migrations/*.pyc
+
+# Database
+*.sqlite3
+
+# Environment variables
+.env
+
+# Django static and media files
+staticfiles/
+media/
+
+# Django cache
+**/django_cache/
+
+# Node modules (if using Node.js for frontend assets)
+node_modules/
+
+# VSCode settings
+.vscode/
+
+# macOS specific files
+.DS_Store
+
+# JetBrains IDEs (PyCharm)
+.idea/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Logs
+*.log
